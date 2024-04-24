@@ -1,0 +1,18 @@
+.historyListItem {
+  h3 {
+    time {
+      font-weight: 500;
+
+      & + * {
+        &::before {
+          @apply mx-3;
+          content: '—';
+        }
+      }
+    }
+
+    strong {
+      font-weight: 500;
+    }
+  }
+}

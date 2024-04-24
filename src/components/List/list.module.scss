@@ -1,0 +1,14 @@
+.vertList {
+  li {
+    @apply relative pl-3 leading-normal;
+
+    &::before {
+      content: '';
+      @apply absolute left-0 rounded-full bg-green-500;
+      top: 0.75em;
+      width: 0.4em;
+      height: 0.4em;
+      transform: translateY(-50%);
+    }
+  }
+}

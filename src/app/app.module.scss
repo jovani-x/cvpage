@@ -1,0 +1,7 @@
+.page {
+  grid-auto-rows: auto 1fr;
+
+  main {
+    grid-auto-rows: max-content;
+  }
+}

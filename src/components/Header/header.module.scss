@@ -1,0 +1,18 @@
+.header {
+  grid-template-areas:
+    'title title title title title title title side side side side side'
+    'role role role role role role role side side side side side';
+  grid-template-rows: auto 1fr;
+
+  .title {
+    grid-area: title;
+  }
+
+  .role {
+    grid-area: role;
+  }
+
+  ul {
+    grid-area: side;
+  }
+}

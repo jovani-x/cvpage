@@ -1,5 +1,6 @@
 .page {
   grid-auto-rows: auto 1fr;
+  @apply min-h-dvh grid;
 
   main {
     grid-auto-rows: max-content;

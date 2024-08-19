@@ -24,7 +24,7 @@ type PersonType = {
   }[]
   skills?: { name: 'string' }[]
   languages?: { name: 'string'; value: 'string' }[]
-  achievement?: { name: 'string' }[]
+  achievements?: { name: 'string' }[]
   education?: {
     date?: 'string'
     role?: 'string'
@@ -44,13 +44,13 @@ const getPersonData = async () => {
 }
 
 const App = () => {
-  const styleClasses = `p-8 min-h-dvh bg-gradient-to-bl from-green-50 to-70% grid ${styles.page}`
+  const styleClasses = `${styles.page} p-8 bg-gradient-to-bl from-green-50 to-70%`
   const [personData, setPersonData] = useState<PersonType | null>(null)
   const summaryText = personData?.summary || ''
   const experience = personData?.experience || null
   const skills = personData?.skills || null
   const languages = personData?.languages || null
-  const achievement = personData?.achievement || null
+  const achievements = personData?.achievements || null
   const education = personData?.education || null
   const agreement = personData?.agreement || ''
   const headerData: HeaderType = {
@@ -86,8 +86,8 @@ const App = () => {
           <List list={skills} />
           <Title titleText="Languages" />
           <DescriptionList list={languages} />
-          <Title titleText="Achievement" />
-          <List list={achievement} classes="vertList" />
+          <Title titleText="Achievements" />
+          <List list={achievements} classes="vertList" />
         </aside>
         <section className="col-span-12">
           <Title titleText="Education" />

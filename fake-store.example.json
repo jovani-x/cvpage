@@ -1,0 +1,71 @@
+{
+  "person": {
+    "role": "Front End Developer",
+    "name": "Full Name",
+    "phone": "+0-123-456-789",
+    "email": "your_name@gmail.com",
+    "location": "Your location",
+    "githubUrl": "https://github.com/your_profile",
+    "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquam id, velit saepe dolorem repellat neque impedit obcaecati vero voluptas illum, ab dolorum quaerat officia. Commodi tenetur quisquam qui ab in quia cupiditate aliquid voluptatibus, enim aperiam, temporibus, omnis earum quidem ea veritatis dignissimos magni iste. Nihil nulla, ea sapiente sint dolorum explicabo accusamus!",
+    "experience": [
+      {
+        "date": "2023 - now",
+        "company": "Company name 1",
+        "role": "Your role",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquam id, velit saepe dolorem repellat neque impedit obcaecati vero voluptas illum, dolorum quaerat."
+      },
+      {
+        "date": "2021 - 2023",
+        "company": "Company name 2",
+        "role": "Your role",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquam id, velit saepe dolorem repellat neque impedit obcaecati vero voluptas illum, ab dolorum quaerat officia."
+      },
+      {
+        "date": "2020 - 2021",
+        "company": "Company name 3",
+        "role": "Your role",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquam id, velit saepe dolorem repellat neque impedit obcaecati vero voluptas illum, dolorum quaerat."
+      },
+      {
+        "date": "2018 - 2020",
+        "company": "Company name 4",
+        "role": "Your role",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquam id, velit saepe dolorem repellat neque impedit obcaecati vero voluptas illum, ab dolorum quaerat officia."
+      }
+    ],
+    "skills": [
+      { "name": "HTML" },
+      { "name": "CSS / SCSS" },
+      { "name": "JavaScript" },
+      { "name": "TypeScript" },
+      { "name": "Technology A" },
+      { "name": "Technology N" },
+      { "name": "Technology W" },
+      { "name": "Technology X" }
+    ],
+    "languages": [
+      { "name": "Language 1", "value": "native" },
+      { "name": "Language 2", "value": "B2" },
+      { "name": "Language 3", "value": "B1 (cert.)" }
+    ],
+    "achievements": [
+      {
+        "name": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        "name": "Nihil aliquam id, velit saepe dolorem repellat neque impedit obcaecati."
+      },
+      {
+        "name": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      }
+    ],
+    "education": [
+      {
+        "date": "2015 - 2019",
+        "role": "Master's degree of Lorem ipsum",
+        "company": "University Name"
+      }
+    ],
+    "agreement": "I agree to the processing of personal data provided in this document for realising the recruitment process pursuant to the Personal Data Protection Act of 10 May 2018 (Journal of Laws 2018, item 1000) and in agreement with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)."
+  }
+}
